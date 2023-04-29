@@ -6,5 +6,5 @@ Using Mean Squared Error (MSE) as our evaluation metric, this project aims to id
 ## Summary
 - Exploratory data analysis (EDA) identifies a relatively high correlation between `sales` and `rank`, which is expected due to how popular products can be sold more easily in higher volumes
 - Random forest is a more optimal choice compared to XGBoost and multiple linear regression based on MSE
-- Perfomed grid search to optimise random forest regressor and reduce MSE
+- Perfomed randomized search with cross-validation to optimise random forest regressor and reduce MSE
 
